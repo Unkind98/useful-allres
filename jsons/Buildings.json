@@ -1,0 +1,97 @@
+[
+	// Coal Enrichment
+	/*
+	{
+		"name": "Syntetic Coal Manufactory",
+		"hurryCostModifier": "40",
+		"maintenance": 5,
+		"requiredTech": "Dynamite",
+		"requiredResource": "Oil",
+		"uniques":["Must be next to [Forest]", "Provide [1] [Coal]"]
+	},
+	*/
+	// Returned Resources
+		// Military Science - Horse
+	{
+		"name": "Horse Racing",
+		"hurryCostModifier": 30,
+		"gold": 2,
+		"culture": 2,
+		"requiredResource": "Horses",
+		"requiredTech": "Military Science",
+		"uniques": ["[+1 Gold, +1 Happiness] from [Horse] tiles [in this city]","All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"]
+	},
+		// Combustion - Horse
+	{
+		"name": "Polo Arena",
+		"hurryCostModifier": 40,
+		"gold": 3,
+		"culture": 3,
+		"requiredResource": "Horses",
+		"requiredTech": "Combustion",
+		"uniques": ["[+2 Gold, +2 Happiness] from [Horse] tiles [in this city]"]
+	},
+		// Steel - Iron
+	{
+		"name": "Blacksmith",
+		"hurryCostModifier": 30,
+		"maintenance": 4,
+		"production": 2,
+		"science": 2,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"specialistSlots": {"Engineer": 1}
+	},
+		// Gunpowder - Iron
+	{
+		"name": "Magazine",
+		"hurryCostModifier": 40,
+		"maintenance": 3,
+		"requiredResource": "Iron",
+		"requiredTech": "Gunpowder",
+		"uniques": ["[+50]% Production when constructing [Gunpowder] units [in this city]","[+20]% Production when not constructing [Gunpowder] units [in this city]"]
+	},
+		// Electricity - Iron, Coal, Oil
+	{
+		"name": "Great Power Generator",
+		"isNationalWonder": true,
+		"hurryCostModifier": 50,
+		"maintenance": 5,
+		"production": 10,
+		"happiness": 10,
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Iron",
+		"quote":"'Power to all people! Ha ha ha!' - Unkind98",
+		"uniques":["[+20%] [Culture] per [2] population [in all cities]", "Gain a free [Power Station] [in this city]"]
+	},
+	{
+		"name": "Oil Reservation",
+		"hurryCostModifier": "45",
+		"maintenance": 2,
+		"production": 1,
+		"requiredBuilding": "Power Station",
+		"requiredTech": "Electronics",
+		"requiredResource": "Oil",
+		"uniques":["[+10%] [Production] per [2] population [in all cities]", "Not displayed as an available construction without [Power Station]"]
+	},
+	{
+		"name": "Coal Reservation",
+		"hurryCostModifier": "45",
+		"maintenance": 2,
+		"production": 1,
+		"requiredBuilding": "Power Station",
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques":["[+10%] [Production] per [2] population [in all cities]", "Not displayed as an available construction without [Power Station]"]
+	},
+	{
+		"name": "Power Station",
+		"hurryCostModifier": "40",
+		"maintenance": 3,
+		"production": 1,
+		//"requiredBuilding": "Great Power Station",
+		"requiredTech": "Electricity",
+		"requiredResource": "Iron",
+		"uniques":["[+10%] [Production] per [2] population [in this city]"]
+	}
+]

@@ -1,0 +1,76 @@
+
+game.png
+size: 404, 404
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Great Power Generator
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Power Station
+  rotate: false
+  xy: 104, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Coal Reservation
+  rotate: false
+  xy: 204, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oil Reservation
+  rotate: false
+  xy: 304, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Horse Racing
+  rotate: false
+  xy: 4, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Polo Arena
+  rotate: false
+  xy: 104, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Blacksmith
+  rotate: false
+  xy: 204, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magazine
+  rotate: false
+  xy: 304, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Visioner Figure
+  rotate: false
+  xy: 4, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ UnitIcons/Marco Polo
+  rotate: false
+  xy: 4, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
