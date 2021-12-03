@@ -60,7 +60,7 @@ BuildingIcons/Magazine
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Visioner Figure
+UnitIcons/Visionary Figure
   rotate: false
   xy: 4, 204
   size: 100, 100
