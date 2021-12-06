@@ -1,15 +1,5 @@
 [
-	// Coal Enrichment
-	/*
-	{
-		"name": "Syntetic Coal Manufactory",
-		"hurryCostModifier": "40",
-		"maintenance": 5,
-		"requiredTech": "Dynamite",
-		"requiredResource": "Oil",
-		"uniques":["Must be next to [Forest]", "Provide [1] [Coal]"]
-	},
-	*/
+
 	// Returned Resources
 		// Military Science - Horse
 	{
@@ -19,7 +9,7 @@
 		"culture": 2,
 		"requiredResource": "Horses",
 		"requiredTech": "Military Science",
-		"uniques": ["[+1 Gold, +1 Happiness] from [Horse] tiles [in this city]","All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"]
+		"uniques": ["[+1 Gold, +1 Happiness] from [Horses] tiles [in this city]","All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"]
 	},
 		// Combustion - Horse
 	{
@@ -29,7 +19,7 @@
 		"culture": 3,
 		"requiredResource": "Horses",
 		"requiredTech": "Combustion",
-		"uniques": ["[+2 Gold, +2 Happiness] from [Horse] tiles [in this city]"]
+		"uniques": ["[+2 Gold, +2 Happiness] from [Horses] tiles [in this city]"]
 	},
 		// Steel - Iron
 	{

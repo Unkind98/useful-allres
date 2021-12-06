@@ -1,14 +1,4 @@
 [
-	/*
-	{
-		"name": "Marco Polo",
-		"unitType": "Civilian",
-		"movement": 1,
-		//"sight": 1000,
-		"strength": 5,
-		"uniques": ["[500] Sight","Unbuildable"]
-	},
-	*/
 	{
 		"name": "Visionary Figure",
 		"unitType": "Gunpowder",
